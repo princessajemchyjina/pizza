@@ -1,0 +1,91 @@
+
+@media screen and (max-width: 960px){
+    
+    .block{
+        
+        height: 780px;
+    }
+    .container__phone, .cart, .logo__staff, .container__video_block, .container__map, .container__hot_sales, .hidden{
+        display: none;
+    }
+    .container__logo{
+        margin-left: 110px;
+      }
+      .container__organaizer{
+        margin-left: 145px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dividing__line{
+        height: 300px;
+       }
+       .staff__mini_container, .container__sales__names{
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        
+       }
+       .staff__img, .sales__pizza__img{
+        height: 250px;
+        width: 250px;
+        }
+        .staff__about__text, .about__text, .variants__sales__text{
+                    
+            height: 420px;
+            width: 350px;
+            }
+            .name__text{
+                font-size: 40px;
+                font-weight: 700;
+                margin-left: 5px;
+                
+            }
+            .social__text{
+                font-size: 35px;
+                
+                margin-left: 5px;
+                
+            }
+            .social__networks{
+                width: 250px;
+            }
+
+            .container__about{
+                font-size: 25px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                height: 1200px;
+                
+            }
+            .container__about__logo, .container__about__logo__text{
+                margin-right: 110px;
+            }
+
+            .info__text{
+                font-size: 35px;
+            }
+            .info__mini_container{
+                
+                width: 335px;
+                margin-right: 190px;
+            }
+            .numbers__text, .adresses__text, li{
+                font-size: 15px;
+                
+            }
+
+            .container__info{
+                height: 300px;
+                width: 335spx;
+            }
+            
+}
+
+
+
+                   
+                            

@@ -435,9 +435,11 @@ span{
 
 	  .dividing__line{
 		  
-		  margin-top: 10px;
+		  margin-bottom: 5px;
+		  margin-top: 5px;
 		  text-align: center;
-		  height: 70px;
+		  height: 120px;
+		  padding: 15px;
 		  font-size: 50px;
 		  font-weight: 800;
 		  word-spacing: 260px;
@@ -528,5 +530,91 @@ span{
    .underlined{
 	border-bottom: 2px solid #ec0909e3;
    }
-
+   
+   .container__menu {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+	  }
 	  
+	.menu__text{
+		  font-size: 85px;
+		  font-weight: 800;
+		  
+	  }
+   
+   .container__sales {
+		align-items: center;
+		background-color: rgb(6, 5, 20);
+		display: flex;
+		flex-direction: column;
+		height: 350px;
+		justify-content: center;
+}
+
+	.sales__pizza__img {
+		border-radius: 120px;
+		height: 225px;
+		width: 225px;
+}
+   .container__sales {
+		align-items: center;
+		background-color: rgb(6, 5, 20);
+		display: flex;
+		flex-direction: column;
+		height: 550px;
+		justify-content: center;
+}
+
+	.sales__pizza__img {
+		border-radius: 120px;
+		height: 225px;
+		width: 225px;
+}
+
+.sales__text {
+	color: red;
+	font-size: 65px;
+	margin-bottom: 350px;
+	border-bottom: 3px dashed;
+}
+
+.sales__pizza__img {
+	border-radius: 120px;
+	height: 225px;
+	width: 225px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.sales__variants {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 100px 50px;
+	margin-top: -300px;
+	width: 70%;
+}
+	.container__sales__names{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-top:70px;
+		margin-left: -6px;
+		position: absolute;
+	}
+
+	.variants__sales__text{
+		margin-top: 320px;
+		margin-left: 17px;
+		margin-right: 10px;
+		color:red;
+		font-size: 30px;
+		font-weight: normal;	
+	}
+
+	.knopka{
+		color: red;
+	}
